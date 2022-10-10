@@ -1,15 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B4BBF8D-B63B-4AC4-A29D-7D68B3F0A787}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliaSQL.Core", "AliaSQL.Core\AliaSQL.Core.csproj", "{1C8083DC-FF7D-4525-8724-49FD434A02D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AliaSQL.Core", "AliaSQL.Core\AliaSQL.Core.csproj", "{1C8083DC-FF7D-4525-8724-49FD434A02D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliaSQL.UnitTests", "AliaSQL.UnitTests\AliaSQL.UnitTests.csproj", "{4BD61AE4-68B6-489F-B433-A456FE10B5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AliaSQL.UnitTests", "AliaSQL.UnitTests\AliaSQL.UnitTests.csproj", "{4BD61AE4-68B6-489F-B433-A456FE10B5BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliaSQL.Console", "AliaSQL.Console\AliaSQL.Console.csproj", "{6C1BCF01-0508-42C0-9C95-8E9D3401400F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AliaSQL.Console", "AliaSQL.Console\AliaSQL.Console.csproj", "{6C1BCF01-0508-42C0-9C95-8E9D3401400F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{237F7D49-9268-4E41-B201-E299C07B1CC3}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,9 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{237F7D
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.Demo", "Database.Demo\Database.Demo.csproj", "{08DE3D66-09EE-490D-B5F2-0CCD4811FA1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database.Demo", "Database.Demo\Database.Demo.csproj", "{08DE3D66-09EE-490D-B5F2-0CCD4811FA1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliaSQL.IntegrationTests", "AliaSQL.IntegrationTests\AliaSQL.IntegrationTests.csproj", "{3B941EE7-A7D7-41CC-97F4-8AD22F1E1D53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AliaSQL.IntegrationTests", "AliaSQL.IntegrationTests\AliaSQL.IntegrationTests.csproj", "{3B941EE7-A7D7-41CC-97F4-8AD22F1E1D53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,5 +54,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E13EFC9-6521-4635-85BC-5949A314C35E}
 	EndGlobalSection
 EndGlobal

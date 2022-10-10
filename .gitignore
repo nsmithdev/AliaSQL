@@ -1,6 +1,7 @@
 Web.Publish.xml
 build/
 release/
+.vs
 *.suo
 *.user
 bin
